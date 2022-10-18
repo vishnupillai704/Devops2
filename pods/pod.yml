@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-name:hello-vish
+name: hello-vish
 labels:
   app: java
 spec: containers
