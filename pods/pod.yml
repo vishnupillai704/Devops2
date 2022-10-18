@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: web-ctr
-      image: vishnu981824/firstdevos
+      image: vishnu981824/app1
       ports:
         - containerPort: 8086
