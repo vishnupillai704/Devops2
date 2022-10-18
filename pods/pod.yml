@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-name: hello-vish
-labels:
-  app: java
-spec: 
-containers:
-  name: vish
- image: vishnu981824/firstdevos
- ports:
-   containerPort: 8086
+  name: hello-pod
+  labels:
+    app: web
+spec:
+  containers:
+    - name: web-ctr
+      image: vishnu981824/firstdevos
+      ports:
+        - containerPort: 8086
