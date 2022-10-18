@@ -4,7 +4,8 @@ metadata:
 name: hello-vish
 labels:
   app: java
-spec: containers
+spec: 
+containers:
  -name: vish
  image: vishnu981824/firstdevos
  ports:
