@@ -6,7 +6,7 @@ labels:
   app: java
 spec: 
 containers:
- -name: vish
+ - name: vish
  image: vishnu981824/firstdevos
  ports:
-  -containerPort: 8086
+  - containerPort: 8086
