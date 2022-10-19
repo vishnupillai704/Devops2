@@ -20,4 +20,4 @@ spec:
         image: vishnu981824/app1
         imagePullPolicy: Always
         ports:
-        - containerPort: 8086
+        - containerPort: 8082
