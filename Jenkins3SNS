@@ -1,0 +1,3 @@
+@Library("shared-library") _
+def terraform = new snsEc2Terra()
+terraform.call()
