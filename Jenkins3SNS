@@ -1,3 +1,3 @@
 @Library("shared-library") _
-def terraform = new com.mcd.snsEc2Terra()
+def terraform = new snsEc2Terra()
 terraform.call()
