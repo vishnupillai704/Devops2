@@ -1,0 +1,3 @@
+@Library("shared-library") _
+def call = new build_artifactory()
+call.runPipeline()
