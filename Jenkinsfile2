@@ -1,4 +1,4 @@
 @Library("shared-library") _
-import com.mcd.terraform
-def common = new com.mcd.terraform()
+import com.mcd.terra
+def common = new terra()
 common.call()
