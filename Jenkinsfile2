@@ -1,4 +1,3 @@
 @Library("shared-library") _
-import com.mcd.terra
 def common = new terra()
 common.call()
