@@ -1,1 +1,3 @@
-
+@Library("shared-library") _
+def jfrog = new jfrog_shared_sns()
+jfrog.jfrogCall()
