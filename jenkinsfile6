@@ -1,0 +1,3 @@
+@Library("shared-library") _
+def common = new artifactory()
+common.call()
